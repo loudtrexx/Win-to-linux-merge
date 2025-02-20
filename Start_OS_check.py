@@ -24,7 +24,7 @@ def OS_chk():
             pass
 
         else:
-            print("OS is unknown (Like non-linux UNIX or ReactOS) rerun the script if you believe this is a mistake")
+            print("OS is not recognized. It could be because the current os is non-linux UNIX or ReactOS. Rerun the script if you believe this is a mistake")
             input("Press Enter to exit ")
             exit()
     except KeyboardInterrupt:
