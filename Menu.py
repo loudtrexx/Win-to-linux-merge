@@ -13,7 +13,7 @@ def choices():
             print("Function coming soon!")
     
         elif choose == "2":
-            webbrowser.open("github.com/loudtrexx")
+            webbrowser.open("github.com/loudtrexx/Win-to-linux-merge")
             print("Github opened!")
             choices()
     
