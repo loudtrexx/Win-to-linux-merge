@@ -27,10 +27,11 @@ def root_check():
         if "File exists" in e.stderr:
             print("Yes")
             subprocess.run(["mv", "/root/test/", "test1"])
-            print("Your old 'test' folder in '/root' was renamed to 'test1'. The script will try again.")
+            print("The old 'test' folder in '/root' was renamed to 'test1'. The script will try again.")
             root_check()
         elif "Permission denied":
             print("Failed to write to '/root'. Are you fakerooted?")
+            exit()
     except KeyboardInterrupt:
         print("Ended by the user")
 
