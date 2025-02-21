@@ -11,7 +11,7 @@ def usr_check():
             
         
         else:
-            print("Not running as root")
+            print("Not running as root. Please try again with sudo")
             exit()
     except KeyboardInterrupt:
         print("Ended by the user")
