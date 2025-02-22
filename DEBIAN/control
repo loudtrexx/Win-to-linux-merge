@@ -1,0 +1,5 @@
+Package: Win-toLinux-migration
+Version: 0.0.1-COMPILE-TEST
+Maintainer: loudtrexx
+Architecture: all
+Description: Linux migration assistant
