@@ -1,1 +1,0 @@
-lsblk | grep -v '^loop'|awk '$7 != ""'|awk '$7 != "/boot/efi"'
